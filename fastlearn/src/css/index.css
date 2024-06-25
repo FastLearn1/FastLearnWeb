@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .co{
+        @apply bg-indigo-700
+    }
+
+    .bane{
+        @apply bg-blue-gray-500 h-64 rounded-3xl;
+    }
+
+    .btn{
+        @apply hover:bg-indigo-400 cursor-pointer;
+    }
+
+    .btn2{
+        @apply hover:bg-red-400 cursor-pointer h-10 w-14 rounded-md;
+    }
+
+    .btn3{
+        @apply hover:bg-indigo-400 cursor-pointer h-10 w-14 rounded-md;
+    }
+
+    .btn4{
+        @apply hover:bg-green-400 cursor-pointer h-10 w-14 rounded-md;
+    }
+    
+
+    .cb{
+        @apply appearance-none;
+    }
+
+    .nig{
+        @apply rounded-xl shadow-md shadow-white border-spacing-1;
+    }
+
+    .t{
+        @apply w-1/2-screen h-12 ml-10 shadow-sm shadow-black;
+    }
+
+    .t2{
+        @apply  h-12 shadow-sm shadow-black;
+    }
+
+    .btnc{
+        @apply hover:bg-red-400 cursor-pointer;
+    }
+
+    .hove{
+        @apply hover:cursor-auto;
+    }
+
+    .m{
+        @apply rounded-3xl bg-blue-gray-100 h-40 w-72 
+    }
+
+   
+}
+
+@media screen and (min-width: 1026px){
+    .bane{
+        width: 90%;
+    }
+
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .bane{
+        width: 80%;
+    }
+
+    .l1{
+        width: 40px;
+        
+    }
+}
+
+@media screen and (max-width: 767px){
+    .bane{
+        width: 76%;
+    }
+
+    .l1{
+        width: 40vw;
+        margin-left: 3px;
+        
+    }
+
+
+   
+}
