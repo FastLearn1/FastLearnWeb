@@ -1,13 +1,13 @@
 import { Bell, Flag } from "lucide-react";
-import { SideBar } from "../components/sidebar/Sidebar";
 import { ButtonD } from "../components/buttons/Delete";
 import { ButtonE } from "../components/buttons/Edit";
-
+import { SideBar } from "../components/sidebar/Sidebar";
+import { Pic } from "../components/tochange/ProgilrPic";
 
 export const Perfil = () => {
   return (
     <main className="flex h-screen">
-          <SideBar />
+      <SideBar />
       <div className="grid grid-rows-4 ml-20">
         <div className="uno row-span-2">
           <header className="flex justify-end fixed top-0 right-0 p-4 bg-white">
@@ -18,7 +18,7 @@ export const Perfil = () => {
             </div>
           </header>
           <div className="flex">
-            <div className="bg-blue-gray-300 size-48 rounded-full ml-10 mt-5"></div>
+            <Pic imageSrc="./img/Epic.png" />
             <div className="flex flex-col p-10">
               <div className="font-bold mb-3">Name:</div>
               <label className="font-bold">Age:</label>

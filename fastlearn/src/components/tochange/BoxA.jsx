@@ -7,7 +7,7 @@ export const BoxA = () => {
     return(
            <main>
                 <section className="flex gap-10 justify-start ml-10 mt-12">
-                    <Box></Box>
+                <Box imageSrc="./img/ww2bg.png" />
                 </section>
                <section className="flex px-14 pt-5 gap-5">
                     <ButtonA></ButtonA>

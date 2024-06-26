@@ -21,9 +21,9 @@ export const Search = () => {
             <div className="pl-7 pt-3 pb-2">
                 <h2 className="font-semibold">Videos</h2>
                 <section className="flex gap-10 justify-start">
-                    <Vid />
-                    <Vid />
-                    <Vid />
+                <Vid imageSrc="./img/mjbg.png" />
+                    <Vid imageSrc="./img/cursobg.png" />
+                    <Vid imageSrc="./img/basquetbg.png" />
                 </section>
 
                 <div className="pt-3"><h2 className="font-semibold">Fastlearn Users</h2></div>

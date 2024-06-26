@@ -9,7 +9,7 @@
     }
 
     .bane{
-        @apply bg-blue-gray-500 h-64 rounded-3xl;
+        @apply h-64 rounded-3xl;
     }
 
     .btn{
