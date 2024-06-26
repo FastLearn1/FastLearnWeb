@@ -6,7 +6,7 @@ export const SideBar = () => {
     const [open, setOpen] = useState(false);
     return (
             
-        <nav className="flex h-screen">
+        <nav className="flex h-screen fixed">
         <div className={`bg-indigo-700 h-screen p-5 pt-8 ${open ? "w-72" : "w-20"} duration-300 relative flex flex-col justify-between`}>
             <div>
                 <AlignJustify

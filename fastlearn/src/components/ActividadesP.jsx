@@ -3,7 +3,7 @@ import { BoxA } from "./tochange/BoxA";
 
 const Act1 = () => {
   return (
-    <main className="w-screen flex">
+    <main className="w-screen flex ml-20">
       <BoxA />
       <BoxA />
       <BoxA />

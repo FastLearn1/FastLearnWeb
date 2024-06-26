@@ -8,7 +8,7 @@ export const PerfilP = () => {
   return (
     <main className="flex h-screen">
           <SideBar></SideBar>
-      <div className="grid grid-rows-4">
+      <div className="grid grid-rows-4 ml-20">
         <div className="uno row-span-2">
           <header className="flex justify-end fixed top-0 right-0 p-4 bg-white">
             <Bell className="mt-1" />
